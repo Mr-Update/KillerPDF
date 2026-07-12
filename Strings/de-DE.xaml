@@ -98,8 +98,8 @@
     <sys:String x:Key="Str_KS_Ocr">OCR</sys:String>
 
     <!-- Document Info dialog -->
-    <sys:String x:Key="Str_TT_DocInfo">Dokumentinformationen (F12)</sys:String>
-    <sys:String x:Key="Str_DocInfo_Suffix">Dokumentinformationen</sys:String>
+    <sys:String x:Key="Str_TT_DocInfo">Dokumentinfo (F12)</sys:String>
+    <sys:String x:Key="Str_DocInfo_Suffix">Dokumentinfo</sys:String>
     <sys:String x:Key="Str_DocInfo_Title">Titel</sys:String>
     <sys:String x:Key="Str_DocInfo_Author">Autor</sys:String>
     <sys:String x:Key="Str_DocInfo_Subject">Betreff</sys:String>
@@ -138,7 +138,7 @@
     <sys:String x:Key="Str_Rotated">{0} Seite(n) gedreht</sys:String>
     <sys:String x:Key="Str_Cropped">{0} Seite(n) zugeschnitten</sys:String>
     <sys:String x:Key="Str_CropFailed">Zuschneiden fehlgeschlagen: {0}</sys:String>
-    <sys:String x:Key="Str_RemovedCrop">CropBox von {0} Seite(n) entfernt</sys:String>
+    <sys:String x:Key="Str_RemovedCrop">Zuschneidebereich von {0} Seite(n) entfernt</sys:String>
     <sys:String x:Key="Str_RemoveCropFailed">Entfernen des Zuschnitts fehlgeschlagen: {0}</sys:String>
     <sys:String x:Key="Str_Extracted">{0} Seite(n) nach {1} extrahiert</sys:String>
     <sys:String x:Key="Str_Deleted">{0} Seite(n) gelöscht – {1} verbleibend</sys:String>
@@ -170,7 +170,7 @@ Die Anwendung wird nach %LocalAppData%\KillerPDF kopiert und eine Verknüpfung i
 Sie können das Programm jederzeit über „Programme hinzufügen oder entfernen“ deinstallieren.</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">Es gibt ungespeicherte Änderungen. Diese Datei ohne Speichern schließen?</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedExit">Es gibt ungespeicherte Änderungen. KillerPDF ohne Speichern beenden?</sys:String>
-    <sys:String x:Key="Str_Dlg_PageOutOfRange">Dieses Dokument enthält {0} Seite(n) außerhalb des von Adobe Reader unterstützten Größenbereichs (3 bis 14.400 Punkte je Seite) - Adobe zeigt diese als leere Seiten an.
+    <sys:String x:Key="Str_Dlg_PageOutOfRange">Dieses Dokument enthält {0} Seite(n) außerhalb des von Adobe Reader unterstützten Größenbereichs (3 bis 14.400 Punkte je Seite) – Adobe zeigt diese als leere Seiten an.
 
 Auf eine unterstützte Größe skalieren? Aussehen und Proportionen der Seiten bleiben erhalten.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen">PDF konnte nicht geöffnet werden:
@@ -372,8 +372,8 @@ Auf eine unterstützte Größe skalieren? Aussehen und Proportionen der Seiten b
     <!-- Crop confirm bar tooltips -->
     <sys:String x:Key="Str_TT_CropThisPage">Diese Seite zuschneiden (Enter)</sys:String>
     <sys:String x:Key="Str_TT_CropRange">Seiten im angegebenen Bereich zuschneiden</sys:String>
-    <sys:String x:Key="Str_TT_CropRemove">CropBox (und TrimBox) von dieser Seite entfernen</sys:String>
-    <sys:String x:Key="Str_TT_CropRemoveAll">CropBox von allen Seiten entfernen</sys:String>
+    <sys:String x:Key="Str_TT_CropRemove">Zuschneidebereich (und Rahmen) von dieser Seite entfernen</sys:String>
+    <sys:String x:Key="Str_TT_CropRemoveAll">Zuschneidebereich von allen Seiten entfernen</sys:String>
     <sys:String x:Key="Str_TT_CropCancel">Abbrechen (Esc)</sys:String>
 
     <!-- ── Line tool, layer / group menu (added v1.5.x) ───────────────── -->
@@ -478,7 +478,7 @@ Auf eine unterstützte Größe skalieren? Aussehen und Proportionen der Seiten b
     <sys:String x:Key="Str_Btn_CancelDlg">Abbrechen</sys:String>
 
 
-    <!-- Status-bar + dialog strings (extracted from code) -->
+    <!-- Status-bar messages (extracted from code) -->
     <sys:String x:Key="Str_St_DataCleared">Alle KillerPDF-Daten gelöscht</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCancelled">OCR-Bereich abgebrochen</sys:String>
     <sys:String x:Key="Str_St_Erased">Gelöscht</sys:String>
@@ -495,7 +495,7 @@ Auf eine unterstützte Größe skalieren? Aussehen und Proportionen der Seiten b
     <sys:String x:Key="Str_St_NoAnnotationsToClear">Keine Anmerkungen zum Löschen</sys:String>
     <sys:String x:Key="Str_St_RepairCancelled">Reparatur abgebrochen</sys:String>
     <sys:String x:Key="Str_St_Cancelled">Abgebrochen</sys:String>
-    <sys:String x:Key="Str_St_DocInfoUpdated">Dokumentinfo aktualisiert - Datei speichern, um die Änderungen zu behalten</sys:String>
+    <sys:String x:Key="Str_St_DocInfoUpdated">Dokumentinfo aktualisiert – Datei speichern, um die Änderungen zu behalten</sys:String>
     <sys:String x:Key="Str_St_FlattenCancelled">Reduzieren abgebrochen (keine Datei geschrieben)</sys:String>
     <sys:String x:Key="Str_St_FlattenPrintFailed">Anmerkungen konnten für den Druck nicht reduziert werden; Druck ohne sie.</sys:String>
     <sys:String x:Key="Str_St_HqDownloadCancelled">Download in hoher Qualität abgebrochen</sys:String>
@@ -507,23 +507,25 @@ Auf eine unterstützte Größe skalieren? Aussehen und Proportionen der Seiten b
     <sys:String x:Key="Str_St_SearchablePdfCancelled">Durchsuchbares PDF abgebrochen (keine Datei geschrieben)</sys:String>
     <sys:String x:Key="Str_St_TextExtractCancelled">Textextraktion abgebrochen (keine Datei geschrieben)</sys:String>
     <sys:String x:Key="Str_St_NoTextOnPage">Kein Text auf dieser Seite gefunden</sys:String>
-    <sys:String x:Key="Str_St_NoTextSelected">Kein Text ausgewählt - zum Auswählen ziehen</sys:String>
+    <sys:String x:Key="Str_St_NoTextSelected">Kein Text ausgewählt – zum Auswählen ziehen</sys:String>
     <sys:String x:Key="Str_St_NoTextInSelection">Kein Text in der Auswahl gefunden</sys:String>
-    <sys:String x:Key="Str_St_SignaturePlaced">Signatur platziert - zum Verschieben ziehen, Größe über den Eckpunkt ändern</sys:String>
+    <sys:String x:Key="Str_St_SignaturePlaced">Signatur platziert – zum Verschieben ziehen, Größe über den Eckpunkt ändern</sys:String>
     <sys:String x:Key="Str_St_FieldCleared">Feld geleert</sys:String>
     <sys:String x:Key="Str_St_FieldSigned">Feld signiert</sys:String>
-    <sys:String x:Key="Str_St_SignatureSaved">Signatur gespeichert - zum Platzieren auf die Seite klicken</sys:String>
-    <sys:String x:Key="Str_St_ImageLoaded">Bild geladen - zum Platzieren auf die Seite klicken</sys:String>
-    <sys:String x:Key="Str_St_EditingText">Text wird bearbeitet - Größe/Farbe oben ändern, Enter zum Speichern</sys:String>
-    <sys:String x:Key="Str_St_AlreadyEditHere">Hier ist bereits eine Bearbeitung - Text anklicken zum erneuten Bearbeiten oder Abdeckung ziehen</sys:String>
+    <sys:String x:Key="Str_St_SignatureSaved">Signatur gespeichert – zum Platzieren auf die Seite klicken</sys:String>
+    <sys:String x:Key="Str_St_ImageLoaded">Bild geladen – zum Platzieren auf die Seite klicken</sys:String>
+    <sys:String x:Key="Str_St_EditingText">Text wird bearbeitet – Größe/Farbe oben ändern, Enter zum Speichern</sys:String>
+    <sys:String x:Key="Str_St_AlreadyEditHere">Hier ist bereits eine Bearbeitung – Text anklicken zum erneuten Bearbeiten oder Abdeckung ziehen</sys:String>
     <sys:String x:Key="Str_St_NoTextLine">Keine Textzeile an dieser Position gefunden</sys:String>
-    <sys:String x:Key="Str_St_LineAlreadyEdited">Diese Zeile wurde bereits bearbeitet - Text anklicken zum Ändern</sys:String>
-    <sys:String x:Key="Str_St_ImagePlaced">Bild platziert - zum Verschieben ziehen, Größe über den Eckpunkt ändern</sys:String>
+    <sys:String x:Key="Str_St_LineAlreadyEdited">Diese Zeile wurde bereits bearbeitet – Text anklicken zum Ändern</sys:String>
+    <sys:String x:Key="Str_St_ImagePlaced">Bild platziert – zum Verschieben ziehen, Größe über den Eckpunkt ändern</sys:String>
     <sys:String x:Key="Str_St_ClipImageUnreadable">Bild aus der Zwischenablage konnte nicht gelesen werden</sys:String>
-    <sys:String x:Key="Str_St_PastedImage">Bild eingefügt - zum Verschieben ziehen, Größe über den Eckpunkt ändern</sys:String>
+    <sys:String x:Key="Str_St_PastedImage">Bild eingefügt – zum Verschieben ziehen, Größe über den Eckpunkt ändern</sys:String>
     <sys:String x:Key="Str_St_ClipNoText">Zwischenablage enthält keinen Text zum Einfügen</sys:String>
-    <sys:String x:Key="Str_St_PastedText">Text eingefügt - zum Verschieben ziehen, Delete zum Entfernen</sys:String>
+    <sys:String x:Key="Str_St_PastedText">Text eingefügt – zum Verschieben ziehen, Entf zum Entfernen</sys:String>
     <sys:String x:Key="Str_St_ClipEmpty">Zwischenablage enthält nichts zum Einfügen</sys:String>
+
+    <!-- Dialog / message-box strings (extracted from code) -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Bitte speichern Sie Ihre Änderungen vor der Aktualisierung.</sys:String>
     <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF wurde deinstalliert.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Wählen Sie die zu extrahierenden Seiten aus.</sys:String>
